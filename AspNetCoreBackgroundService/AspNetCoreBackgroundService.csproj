@@ -6,11 +6,4 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="BackgroundServices\**" />
-    <Content Remove="BackgroundServices\**" />
-    <EmbeddedResource Remove="BackgroundServices\**" />
-    <None Remove="BackgroundServices\**" />
-  </ItemGroup>
-
 </Project>

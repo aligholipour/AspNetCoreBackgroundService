@@ -1,6 +1,10 @@
+using AspNetCoreBackgroundService.BackgroundServices;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddHostedService<CounterBackgroudService>();
 
 var app = builder.Build();
 
